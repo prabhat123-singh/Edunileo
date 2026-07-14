@@ -1,1 +1,114 @@
-/* EduNileo CSS */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f8fafc;
+    color:#111827;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:#ffffff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.logo h2{
+    color:#2563eb;
+    font-size:30px;
+    font-weight:800;
+}
+
+nav ul{
+    display:flex;
+    gap:28px;
+}
+
+nav a{
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+.btn{
+    background:#2563eb;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:12px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.hero{
+    text-align:center;
+    padding:90px 20px;
+}
+
+.hero h1{
+    font-size:56px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#6b7280;
+    max-width:700px;
+    margin:auto;
+}
+
+.search-box{
+    max-width:650px;
+    margin:45px auto 0;
+    display:flex;
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+}
+
+.search-box input{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:18px;
+    font-size:16px;
+}
+
+.search-box button{
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    padding:0 30px;
+    cursor:pointer;
+    font-weight:700;
+}
