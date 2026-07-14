@@ -152,3 +152,37 @@ nav a:hover{
 .card p{
     color:#6b7280;
 }
+.classes{
+padding:80px 8%;
+text-align:center;
+}
+
+.classes h2{
+font-size:42px;
+margin-bottom:40px;
+}
+
+.class-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.class-card{
+background:#2563eb;
+color:white;
+padding:40px;
+border-radius:20px;
+transition:.3s;
+cursor:pointer;
+}
+
+.class-card:hover{
+transform:translateY(-10px);
+background:#1d4ed8;
+}
+
+.class-card h3{
+font-size:32px;
+margin-bottom:10px;
+}
