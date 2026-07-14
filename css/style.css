@@ -186,3 +186,35 @@ background:#1d4ed8;
 font-size:32px;
 margin-bottom:10px;
 }
+.hero-buttons{
+margin-top:35px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.primary-btn{
+background:#2563eb;
+color:#fff;
+padding:15px 32px;
+border-radius:12px;
+font-weight:700;
+}
+
+.secondary-btn{
+border:2px solid #2563eb;
+color:#2563eb;
+padding:15px 32px;
+border-radius:12px;
+font-weight:700;
+}
+
+.primary-btn:hover{
+background:#1d4ed8;
+}
+
+.secondary-btn:hover{
+background:#2563eb;
+color:white;
+}
