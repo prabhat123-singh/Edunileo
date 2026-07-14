@@ -255,3 +255,41 @@ font-size:24px;
 .resource-card p{
 color:#6b7280;
 }
+footer{
+background:#111827;
+color:white;
+padding:60px 8%;
+text-align:center;
+}
+
+.footer-content h2{
+font-size:34px;
+margin-bottom:15px;
+}
+
+.footer-content p{
+color:#d1d5db;
+margin-bottom:20px;
+}
+
+.footer-links{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-bottom:25px;
+}
+
+.footer-links a{
+color:white;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#60a5fa;
+}
+
+.copyright{
+font-size:14px;
+opacity:.8;
+}
