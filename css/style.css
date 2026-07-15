@@ -769,3 +769,41 @@ justify-content:center;
     }
 
 }
+/* Class Search */
+
+.class-search{
+    margin-top:35px;
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.class-search input{
+    width:420px;
+    max-width:100%;
+    padding:16px;
+    border:1px solid #dbeafe;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+}
+
+.class-search input:focus{
+    border-color:#2563eb;
+}
+
+.class-search button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    padding:16px 28px;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.class-search button:hover{
+    background:#1d4ed8;
+}
