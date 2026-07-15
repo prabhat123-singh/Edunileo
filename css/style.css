@@ -78,8 +78,10 @@ nav a:hover{
 }
 
 .hero{
-    text-align:center;
-    padding:120px 20px 90px;
+    padding:90px 20px;
+    background:linear-gradient(135deg,#eef5ff 0%,#ffffff 100%);
+    position:relative;
+    overflow:hidden;
 }
 
 .hero h1{
@@ -425,4 +427,25 @@ max-width:340px;
 margin-top:30px;
 }
 
+}
+.hero::before{
+    content:"";
+    position:absolute;
+    width:350px;
+    height:350px;
+    background:rgba(37,99,235,.08);
+    border-radius:50%;
+    top:-120px;
+    right:-120px;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:220px;
+    height:220px;
+    background:rgba(59,130,246,.08);
+    border-radius:50%;
+    bottom:-80px;
+    left:-80px;
 }
