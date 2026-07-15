@@ -509,3 +509,36 @@ justify-content:center;
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
+/* ===== HERO BACKGROUND V2 ===== */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:420px;
+    height:420px;
+    background:radial-gradient(circle,#dbeafe 0%,transparent 70%);
+    top:-160px;
+    right:-120px;
+    z-index:0;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:280px;
+    height:280px;
+    background:radial-gradient(circle,#bfdbfe 0%,transparent 70%);
+    bottom:-120px;
+    left:-100px;
+    z-index:0;
+}
+
+.hero-container{
+    position:relative;
+    z-index:2;
+}
