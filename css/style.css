@@ -807,3 +807,14 @@ justify-content:center;
 .class-search button:hover{
     background:#1d4ed8;
 }
+.chapter-list{
+    list-style:none;
+    padding:15px 0;
+    text-align:left;
+}
+
+.chapter-list li{
+    padding:8px 0;
+    color:#555;
+    border-bottom:1px solid #eee;
+}
