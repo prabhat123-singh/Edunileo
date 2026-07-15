@@ -591,8 +591,17 @@ justify-content:center;
 }
 
 .feature-icon{
-    font-size:48px;
-    margin-bottom:20px;
+    width:70px;
+    height:70px;
+    margin:0 auto 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:18px;
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+    color:#fff;
+    font-size:30px;
+    box-shadow:0 15px 35px rgba(37,99,235,.25);
 }
 
 .feature-card h3{
